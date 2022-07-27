@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100" 
+    rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <script src="java.js"></script> 
+    <title>ME ACHA! - BUSCA DE ENDEREÇO</title>
+
+</head>
+<body>
+    <header>
+        <H1>ME ACHA!</H1>
+        <h2>ENCONTRE UM ENDEREÇO PELO NÚMERO DE CEP</h2>
+        <div><span class="material-symbols-outlined icon">travel_explore</span></div>
+    </header>
+    <main>  
+    <section id="formulario">
+        <form action="get" name="cep">
+            <label for="Cep">Cep</label>
+            <input type="text" class="txt" id="NumeroCep" name="Cep" value="">
+            <label for="Rua">Rua</label>
+            <input type="text" class="txt" id="logradouro" name="Rua" value="" disabled>
+            <label for="Bairro">Bairro</label>
+            <input type="text" class="txt" id="bairro" name="Bairro" value="" disabled>
+            <label for="Cidade">Cidade</label>
+            <input type="text" class="txt" id="localidade" name="Cidade" value="" disabled>
+            <label for="Estado">Estado</label>
+            <input type="text" class="txt" id="uf" name="Estado" value="" disabled>
+            <input type="button" name="BUSCAR" id="btnBuscar" value="BUSCAR" class="btn">
+        </form>
+    </section>    
+    </main>
+    <footer></footer>
+</header>  
+</body>
+</html>
